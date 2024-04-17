@@ -1,10 +1,13 @@
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import Image from "next/image";
+import style from "./Header.module.css";
 
 export default function Header() {
     return (
-        <header className="flex min-h-screen w-full flex-col justify-center bg-gradient-to-b from-[#eefff9] via-[#ffccc1] to-[#dcdbff] p-[10%]">
+        <header
+            className={`${style.header} flex min-h-screen w-full flex-col justify-center bg-gradient-to-b from-[#eefff9] via-[#ffccc1] to-[#dcdbff] p-[10%]`}
+        >
             <h1 className="mt-[100px] text-[13vw] font-bold uppercase leading-[11vw]">
                 <span>Free</span>
                 <br />
