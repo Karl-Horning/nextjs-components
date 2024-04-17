@@ -6,9 +6,9 @@ export default function Header() {
     return (
         <header className="flex min-h-screen w-full flex-col justify-center bg-gradient-to-b from-[#eefff9] via-[#ffccc1] to-[#dcdbff] p-[10%]">
             <h1 className="mt-[100px] text-[13vw] font-bold uppercase leading-[11vw]">
-                Free
+                <span>Free</span>
                 <br />
-                lancer
+                <span>lancer</span>
             </h1>
 
             <div className="mx-0 my-5">
@@ -28,8 +28,8 @@ export default function Header() {
             <Image
                 src="/example-images/user.png"
                 alt="User"
-                height={100}
-                width={100}
+                height={1000}
+                width={700}
                 className="absolute bottom-[-8.9%] right-[13%] w-4/5 max-w-[500px]"
             />
         </header>
