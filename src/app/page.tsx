@@ -1,6 +1,7 @@
-import GlitchEffect from "@/components/GlitchEffect/GlitchEffect";
 import Header from "@/components/Header/Header";
 import NavBar from "@/components/NavBar/NavBar";
+import ProgressBarLines from "@/components/ProgressBarLines/ProgressBarLines";
+
 
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <main>
             <NavBar />
             <Header />
-            <GlitchEffect />
+            <ProgressBarLines />
         </main>
     );
 }
